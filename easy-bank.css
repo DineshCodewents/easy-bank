@@ -10,6 +10,7 @@
   --px: 18px;
 
 }
+
 *,
 *::before,
 *::after {
@@ -143,4 +144,45 @@ header {
 
 .navbar .btn-primary {
   display: none;
+}
+
+main {
+  overflow: hidden;
+}
+
+.home {
+  background: var(--very-light-gray);
+  padding-bottom: 60px;
+}
+
+.home-img-box {
+  background: url(./images/bg-intro-mobile.svg) no-repeat top;
+  background-size: cover;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+.home-img-box .home-img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.home-title {
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.home-text {
+  margin: auto;
+  color: var(--grayish-blue);
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  padding: 0 20px;
 }

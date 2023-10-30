@@ -45,6 +45,7 @@ img,
 span,
 svg {
   display: block;
+  padding-left: 20px;
 }
 
 .container {
@@ -314,6 +315,7 @@ footer {
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
+  padding-top: 50px;
 }
 
 .social-link ion-icon {
@@ -540,7 +542,6 @@ footer .btn-primary {
     display: flex;
     justify-content: space-between;
   }
-
   .footer-brand {
     margin: 0;
     margin-bottom: 50px;
